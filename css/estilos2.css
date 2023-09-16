@@ -1,0 +1,28 @@
+.contenedor{
+
+    width: 50%;
+    border: solid black;
+    font-size: 18px;
+    position: relative;
+    top: 100px; 
+    left: 350px;
+}
+
+.titulo{
+
+    width: 100%;
+    display: flex;
+    color: red;
+    font-size: 20px;
+}
+.tablita{
+    width: 100%;
+    position: relative;
+    top: -15px; 
+    left: 70px;
+}
+
+#alias{
+
+    text-align: left;
+}

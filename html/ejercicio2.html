@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 2</title>
+    <link rel="stylesheet" href="../css/estilos2.css">
+</head>
+<body>
+    
+<form >
+
+
+    <div class="contenedor">
+
+        <div class="titulo">
+
+            <img src="../recursos/12c36490-1c83-4842-8444-58c0253c96c8.jpg" alt="" width="85px" height="100px">
+            <h1>Employee Registration Form</h1>
+        </div>
+
+      
+       <div class="tablita">
+
+
+  
+        <table style="width: 100%;">
+            <th>    </th>
+            <th id="alias">
+                <label>
+                    <input id="alias"  type="radio" name="salutation" value="Mr."> Mr.
+                  </label>
+                  
+                  <label>
+                    <input id="alias" type="radio" name="salutation" value="Mrs."> Mrs.
+                  </label>
+                  
+                  <label>
+                    <input id="alias" type="radio" name="salutation" value="Ms."> Ms.
+                  </label>
+            </th>
+
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" placeholder="First Name"  pattern="^(Mr|Ms|Mrs)\s[a-zA-Z]+\s[a-zA-Z]+$"></td>
+            </tr>
+
+
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" placeholder="Last Name" pattern="[A-Za-z]@cecar.edu.co"></td>
+            </tr>
+
+            <tr>
+                <td>Mail</td>
+                <td>  <input type="email"   pattern="[A-Za-z._0-9]+@+cecar.edu.co" ></td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><input type="text"  pattern=".{1,100}"></td>
+            </tr>
+
+            <tr>
+                <td>City</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>State</td>
+                <td>
+                    <select>
+                        <option value="opcion1">Gujarat</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                      </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Zip</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Upload Photo</td>
+               <td><input type="file" ></td>
+
+               
+            </tr>
+            <tr>
+                <td>    <input type="submit"></td>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+        </table>
+ 
+        </div> 
+
+<br><br>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+</body>
+</html>

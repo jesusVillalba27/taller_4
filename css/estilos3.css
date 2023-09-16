@@ -1,0 +1,97 @@
+.principal{
+
+
+    width: 40%;
+    position: relative;
+    top: 110px; 
+    left: 400px;
+    
+}
+
+.titulo{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(#dedede, #c3c3c3, #bbbbbb );
+    border-radius: 10px;
+    margin: 2px;
+}
+
+
+
+
+.circulo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 2px; 
+    position: relative;
+    top: 6px;
+    right: -7px;
+}
+
+.rojo {
+    border: solid #764a4a 1px;
+    background: linear-gradient(#febebc, #fc635e, #febebc);
+    
+
+   
+}
+
+.amarillo {
+
+    border: solid #80653f 1px;
+    background: linear-gradient(  #ffecc0, #f5ca6d,   #ffecc0);
+     
+}
+
+.verde {
+
+    border: solid #6a795f 1px;
+    background: linear-gradient(  #e0fcc3, #a8d283,   #e0fcc3);
+  
+}
+
+#ps{
+    font-size: 17px;
+    margin-top: -1px;
+    margin-right: 10px;
+    width: 50%;
+    position: relative;
+    top: 6px;
+    right: -75px;
+}
+
+#img{
+
+    position: relative;
+    top: 3px;
+    right: -165px;
+    width: 30px;
+     height:30px ;
+}
+
+.tablita{
+    width: 100%;
+  
+    
+}
+.tablita > table {
+     margin-left: 50px;
+}
+
+#botons{
+
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.abajo{
+    width: 100%;
+    background-color: #b6b6b6;
+    border-radius: 5px;
+}
+
+#pss{
+
+    margin-left: 8px;
+}

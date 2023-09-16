@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 1</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+  
+
+         <div class="contenedor">
+
+        <form>
+
+        <fieldset>
+        <legend>Your details</legend>
+        <ol>
+            <li>Name <input type="text" placeholder="First and last name" pattern="[A-Za-z\s]+" autofocus>  </li>
+            <li>Email <input type="email" placeholder="example@domain.com" pattern=".{1,30}" ></li>
+            <li>Phone <input type="number" placeholder=" Eg. +447500000000" ></li>
+        </ol>
+    </fieldset>
+
+    <fieldset>
+        <legend>Delivery address</legend>
+        <ol>
+            <li>Address <textarea name="" id="" cols="25" rows="5"></textarea></li>
+            <li>Post code <input type="text"  pattern="^\d{6,8}$"></li>
+            <li>Country <input type="text"></li>
+        </ol>
+    </fieldset>
+
+    <fieldset>
+        <legend>Card details</legend>
+        <ol>
+            <li> 
+                <fieldset>
+                <legend> Card type</legend>
+                <ol>
+                    <li><input type="radio" name="opcion" value="VISA" >
+                        <label for="VISA">VISA</label><br>
+                      
+                      </li>
+                    <li>
+                        <input type="radio"  name="opcion" value="AmEx">
+                        <label for="AmEx">AmEx</label><br>
+                      </li>
+                    
+                      <li>  <input type="radio"  name="opcion" value="Mastercard">
+                        <label for="Mastercard">Mastercard</label><br>
+                    
+                    </li>
+                </ol></fieldset>
+            </li>
+            <li>Card number <input type="text"  pattern="^\d{1,3}$"></li>
+            <li>Security code <input type="password" pattern="R\d+"></li>
+            <li>Name on card  <input type="text" placeholder="Exact name as on the card"></li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Buy it!"style="border-radius: 25px; ">
+    </fieldset>
+
+
+ 
+    </form>
+   
+   
+</div>
+      
+
+
+
+
+
+
+
+
+</body>
+</html>
